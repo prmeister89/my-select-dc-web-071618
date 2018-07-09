@@ -6,5 +6,5 @@ def my_select(collection)
     new_array << yield(collection == true)
     i+=1
   end
-  return new_array
+  return collection
 end
